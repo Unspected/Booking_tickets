@@ -37,6 +37,9 @@ struct TicketView: View {
             }
             .padding(.horizontal, 30)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
+            Tickets()
+                .padding(.top, 30)
         }
         .background(
             LinearGradient(
