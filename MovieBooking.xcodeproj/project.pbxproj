@@ -21,9 +21,11 @@
 		33D8599728AC1E4D00C842CF /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8599628AC1E4D00C842CF /* CircleBackground.swift */; };
 		33D8599B28AC26E000C842CF /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8599A28AC26E000C842CF /* CircleButton.swift */; };
 		966401B729FB1CD700589E58 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966401B629FB1CD700589E58 /* LargeButton.swift */; };
+		DD659CDA2B282A4900527768 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD659CD92B282A4900527768 /* CustomTabBar.swift */; };
 		DD6871F22B24045F00E0AF6B /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6871F12B24045F00E0AF6B /* TicketView.swift */; };
 		DD6871F52B24092900E0AF6B /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6871F42B24092900E0AF6B /* Ticket.swift */; };
 		DD6871F72B2417A200E0AF6B /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6871F62B2417A200E0AF6B /* Tickets.swift */; };
+		DD6C92C12B259A4400174A1A /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C92C02B259A4400174A1A /* TabData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,9 +44,11 @@
 		33D8599628AC1E4D00C842CF /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		33D8599A28AC26E000C842CF /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		966401B629FB1CD700589E58 /* LargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		DD659CD92B282A4900527768 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		DD6871F12B24045F00E0AF6B /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		DD6871F42B24092900E0AF6B /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		DD6871F62B2417A200E0AF6B /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		DD6C92C02B259A4400174A1A /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 			children = (
 				33D8598D28AC0EA600C842CF /* TicketData.swift */,
 				33D8598F28AC10A500C842CF /* PosterData.swift */,
+				DD6C92C02B259A4400174A1A /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			children = (
 				33D8599628AC1E4D00C842CF /* CircleBackground.swift */,
 				3314727C28B03430000AFD83 /* StatusUI.swift */,
+				DD659CD92B282A4900527768 /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				3314728328B038DF000AFD83 /* utils.swift in Sources */,
 				DD6871F52B24092900E0AF6B /* Ticket.swift in Sources */,
 				3314727D28B03430000AFD83 /* StatusUI.swift in Sources */,
+				DD659CDA2B282A4900527768 /* CustomTabBar.swift in Sources */,
 				3314728128B038C1000AFD83 /* RoundButton.swift in Sources */,
+				DD6C92C12B259A4400174A1A /* TabData.swift in Sources */,
 				966401B729FB1CD700589E58 /* LargeButton.swift in Sources */,
 				33D8599B28AC26E000C842CF /* CircleButton.swift in Sources */,
 				33D8599028AC10A500C842CF /* PosterData.swift in Sources */,
