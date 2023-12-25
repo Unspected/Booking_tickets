@@ -25,7 +25,12 @@
 		DD6871F22B24045F00E0AF6B /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6871F12B24045F00E0AF6B /* TicketView.swift */; };
 		DD6871F52B24092900E0AF6B /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6871F42B24092900E0AF6B /* Ticket.swift */; };
 		DD6871F72B2417A200E0AF6B /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6871F62B2417A200E0AF6B /* Tickets.swift */; };
+		DD6C78B92B392A4F00D7AE9D /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C78B82B392A4F00D7AE9D /* BookingView.swift */; };
 		DD6C92C12B259A4400174A1A /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C92C02B259A4400174A1A /* TabData.swift */; };
+		DDCD5FC92B2D2ABB008C3E02 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD5FC82B2D2ABB008C3E02 /* HomeView.swift */; };
+		DDCD5FCB2B2D2C65008C3E02 /* CircleBackgroundAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD5FCA2B2D2C65008C3E02 /* CircleBackgroundAnimation.swift */; };
+		DDCD5FCD2B2D2D65008C3E02 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD5FCC2B2D2D65008C3E02 /* CustomSearchBar.swift */; };
+		DDCD5FCF2B2D3667008C3E02 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD5FCE2B2D3667008C3E02 /* ScrollSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +53,12 @@
 		DD6871F12B24045F00E0AF6B /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		DD6871F42B24092900E0AF6B /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		DD6871F62B2417A200E0AF6B /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		DD6C78B82B392A4F00D7AE9D /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		DD6C92C02B259A4400174A1A /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		DDCD5FC82B2D2ABB008C3E02 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DDCD5FCA2B2D2C65008C3E02 /* CircleBackgroundAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackgroundAnimation.swift; sourceTree = "<group>"; };
+		DDCD5FCC2B2D2D65008C3E02 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		DDCD5FCE2B2D3667008C3E02 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				DD6871F12B24045F00E0AF6B /* TicketView.swift */,
+				DDCD5FC82B2D2ABB008C3E02 /* HomeView.swift */,
+				DD6C78B82B392A4F00D7AE9D /* BookingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +151,9 @@
 				33D8599628AC1E4D00C842CF /* CircleBackground.swift */,
 				3314727C28B03430000AFD83 /* StatusUI.swift */,
 				DD659CD92B282A4900527768 /* CustomTabBar.swift */,
+				DDCD5FCA2B2D2C65008C3E02 /* CircleBackgroundAnimation.swift */,
+				DDCD5FCC2B2D2D65008C3E02 /* CustomSearchBar.swift */,
+				DDCD5FCE2B2D3667008C3E02 /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -224,6 +239,8 @@
 			files = (
 				33D8599228AC179800C842CF /* TimeButton.swift in Sources */,
 				DD6871F22B24045F00E0AF6B /* TicketView.swift in Sources */,
+				DDCD5FCD2B2D2D65008C3E02 /* CustomSearchBar.swift in Sources */,
+				DDCD5FCB2B2D2C65008C3E02 /* CircleBackgroundAnimation.swift in Sources */,
 				33D8597E28ABDDCB00C842CF /* ContentView.swift in Sources */,
 				33D8598E28AC0EA600C842CF /* TicketData.swift in Sources */,
 				DD6871F72B2417A200E0AF6B /* Tickets.swift in Sources */,
@@ -231,6 +248,7 @@
 				DD6871F52B24092900E0AF6B /* Ticket.swift in Sources */,
 				3314727D28B03430000AFD83 /* StatusUI.swift in Sources */,
 				DD659CDA2B282A4900527768 /* CustomTabBar.swift in Sources */,
+				DDCD5FC92B2D2ABB008C3E02 /* HomeView.swift in Sources */,
 				3314728128B038C1000AFD83 /* RoundButton.swift in Sources */,
 				DD6C92C12B259A4400174A1A /* TabData.swift in Sources */,
 				966401B729FB1CD700589E58 /* LargeButton.swift in Sources */,
@@ -239,6 +257,8 @@
 				33D8599728AC1E4D00C842CF /* CircleBackground.swift in Sources */,
 				33D8597C28ABDDCB00C842CF /* MovieBookingApp.swift in Sources */,
 				33D8599428AC17A200C842CF /* DateButton.swift in Sources */,
+				DD6C78B92B392A4F00D7AE9D /* BookingView.swift in Sources */,
+				DDCD5FCF2B2D3667008C3E02 /* ScrollSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieBooking/Preview Content\"";
-				DEVELOPMENT_TEAM = QQM8LZQU97;
+				DEVELOPMENT_TEAM = ZW3N55LCY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
@@ -381,7 +401,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yam.willie.MovieBooking;
+				PRODUCT_BUNDLE_IDENTIFIER = pavel.moviebooking.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -400,7 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieBooking/Preview Content\"";
-				DEVELOPMENT_TEAM = QQM8LZQU97;
+				DEVELOPMENT_TEAM = ZW3N55LCY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
@@ -414,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yam.willie.MovieBooking;
+				PRODUCT_BUNDLE_IDENTIFIER = pavel.moviebooking.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
