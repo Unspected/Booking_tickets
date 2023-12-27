@@ -1,7 +1,13 @@
 
 import SwiftUI
 
+struct DateTimeFormat {
+    let weekday: String
+    let dayNumber: Int
+}
+
 struct BookingView: View {
+    @Environment(\.dismiss) var dismiss
     
     @State var gradient: [Color] = [
         Color("backgroundColor2").opacity(0),
@@ -12,6 +18,12 @@ struct BookingView: View {
     @State var selectedDate: Bool = false
     @State var selectedHour: Bool = false
     @State var bindingSelection: Bool = false
+    
+    private var currentWeek: [DateTimeFormat] = []
+    
+    init() {
+        getDates()
+    }
     
     
     var body: some View {
@@ -30,7 +42,11 @@ struct BookingView: View {
                 
                 VStack(spacing: 0.0) {
                     HStack {
-                        CircleButton(action: {}, image: "arrow.left")
+                        CircleButton(
+                            action: {
+                                dismiss()
+                            },
+                            image: "arrow.left")
                         
                         Spacer()
                         
@@ -59,6 +75,7 @@ struct BookingView: View {
                         .foregroundColor(.white)
                     
                     HStack(alignment: .top, spacing: 20) {
+                        
                         DateButton(weekDay: "Thu", numDay: "21", isSelected: $bindingSelection)
                             .padding(.top, 90)
                         DateButton(weekDay: "Fri", numDay: "22", isSelected: $bindingSelection)
@@ -102,9 +119,6 @@ struct BookingView: View {
                             .padding(20)
                             .offset(y: selectedDate && selectedHour ? 0 : 200)
                     }
-                    
-                    
-                    
                 }
                 .frame(maxHeight: .infinity, alignment: .top)
             }
@@ -112,6 +126,25 @@ struct BookingView: View {
             .ignoresSafeArea()
         }
         .navigationBarBackButtonHidden(true)
+    }
+    
+    
+    mutating private func getDates() {
+        // Get the current date
+        let currentDate = Date()
+        
+        // Create a calendar
+        let calendar = Calendar.current
+        
+        for i in 0..<5 {
+            if let nextDate = calendar.date(byAdding: .day, value: i, to: currentDate) {
+                let weekday = calendar.component(.weekday, from: nextDate)
+                let weekdayString = calendar.shortWeekdaySymbols[weekday - 1]
+                
+                let dateTimeFormat = DateTimeFormat(weekday: weekdayString, dayNumber: i + 1)
+                currentWeek.append(dateTimeFormat)
+            }
+        }
     }
 }
 
